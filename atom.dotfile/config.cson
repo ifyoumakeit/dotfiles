@@ -1,0 +1,63 @@
+"*":
+  "atom-package-deps":
+    ignored: []
+  core:
+    closeDeletedFileTabs: true
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+    ]
+    restorePreviousWindowsOnStart: false
+    telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    autoIndentOnPaste: false
+    fontFamily: "OperatorMono-Book"
+    fontSize: 17
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softTabs: false
+    softWrap: true
+    softWrapHangingIndent: 6
+  "elm-format": {}
+  elmjutsu:
+    cacheDirectory: "/var/folders/98/gmcrb9bx4b97c__3krht4f6w0000gp/T/elmjutsu213490N106lU53zzH"
+  "exception-reporting":
+    userId: "5ce473ee-fdd2-9c20-1b94-7c8cd3be11e7"
+  "git-blame":
+    columnWidth: 510
+  "git-plus":
+    general:
+      _analyticsUserId: "a553390b-c92a-487a-8cd0-a1cfa28ef4e8"
+  linter: {}
+  "linter-pylint":
+    rcFile: "%p/etc/pylintrc"
+  "linter-ui-default":
+    panelHeight: 232
+    showPanel: true
+  "one-light-ui": {}
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+  tabs:
+    alwaysShowTabBar: false
+    enableVcsColoring: true
+  "tree-view": {}
+  "vim-mode-plus":
+    automaticallyEscapeInsertModeOnActivePaneItemChange: true
+    clearHighlightSearchOnResetNormalMode: true
+    clearRangeMarkerOnResetNormalMode: true
+    highlightSearch: true
+    incrementalSearch: true
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  welcome:
+    showOnStartup: false

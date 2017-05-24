@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+for src in $(find -H $(pwd -P) -name '*.dotfile')
+do
+  echo $src
+  dst="$HOME/.$(basename "${src%.*}")"
+  echo $dst
+done
