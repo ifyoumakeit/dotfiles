@@ -1,0 +1,1 @@
+/Users/pruett/.config/fisherman/z/conf.d/z.fish

@@ -2,7 +2,11 @@
 
 for src in $(find -H $(pwd -P) -name '*.dotfile')
 do
-  echo $src
   dst="$HOME/.$(basename "${src%.*}")"
-  echo $dst
+  echo "❌  Deleting $dst"
+  rm -rf "$dst"
+  echo "🔄  Symlinking $src ➡️  $dst..."
+  ln -s "$src" "$dst"
 done
+
+echo "Symlink complete ✅"
