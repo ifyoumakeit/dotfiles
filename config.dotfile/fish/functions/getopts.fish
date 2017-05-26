@@ -1,1 +1,0 @@
-/Users/pruett/.config/fisherman/getopts/getopts.fish

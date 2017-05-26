@@ -1,1 +1,0 @@
-/Users/pruett/.config/fisherman/z/functions/__z.fish
