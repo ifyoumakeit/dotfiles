@@ -1,7 +1,6 @@
 [user]
   name = Kevin Pruett
   email = pruett.kevin@gmail.com
-  signingkey = 9F235728D4D017DD
 [push]
   default = current
 [alias]
@@ -20,7 +19,6 @@
   remote = green
 [commit]
   template = ~/.gitmessage
-  gpgsign = true
 [fetch]
   prune = true
 [color "diff"]
