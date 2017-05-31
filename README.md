@@ -7,3 +7,5 @@
 - `scripts/link`
 
 - `scripts/fish`
+
+- `fisher up`
