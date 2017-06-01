@@ -2,7 +2,10 @@ fish/conf.d/*
 fish/functions/*
 !fish/functions/fish_prompt.fish
 !fish/functions/fisher.fish
+!fish/functions/fish_user_key_bindings.fish
 fish/fishd.*
 fish/completions/*
 !fish/completions/fisher.fish
 fisherman
+configstore
+yarn
