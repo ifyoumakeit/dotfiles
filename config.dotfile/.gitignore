@@ -3,4 +3,6 @@ fish/functions/*
 !fish/functions/fish_prompt.fish
 !fish/functions/fisher.fish
 fish/fishd.*
+fish/completions/*
+!fish/completions/fisher.fish
 fisherman
