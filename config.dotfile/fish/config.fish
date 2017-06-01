@@ -1,3 +1,6 @@
+set -x PATH /usr/local/bin /usr/bin /bin /usr/sbin /sbin /usr/local/MacGPG2/bin /usr/local/Cellar/node/8.0.0/bin
+
+# System
 alias reload!="source ~/.config/fish/config.fish"
 
 # Homebrew

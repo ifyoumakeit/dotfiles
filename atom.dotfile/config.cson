@@ -3,6 +3,7 @@
     ignored: []
   core:
     closeDeletedFileTabs: true
+    excludeVcsIgnoredPaths: false
     ignoredNames: [
       ".git"
       ".hg"
@@ -11,7 +12,6 @@
       "._*"
       "Thumbs.db"
     ]
-    restorePreviousWindowsOnStart: false
     telemetryConsent: "limited"
     themes: [
       "one-light-ui"
@@ -41,7 +41,7 @@
   "linter-pylint":
     rcFile: "%p/etc/pylintrc"
   "linter-ui-default":
-    panelHeight: 232
+    panelHeight: 235
   "one-light-ui": {}
   "prettier-atom":
     formatOnSaveOptions:
@@ -49,7 +49,9 @@
   tabs:
     alwaysShowTabBar: false
     enableVcsColoring: true
-  "tree-view": {}
+  "tree-view":
+    hideIgnoredNames: true
+    squashDirectoryNames: true
   "vim-mode-plus":
     automaticallyEscapeInsertModeOnActivePaneItemChange: true
     clearHighlightSearchOnResetNormalMode: true
