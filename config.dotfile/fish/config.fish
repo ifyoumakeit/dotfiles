@@ -22,3 +22,9 @@ alias tmuxl='tmux list-sessions'
 
 # Git
 alias gca="git commit -a"
+
+# FZF
+set -U FZF_LEGACY_KEYBINDINGS 0
+
+# Z
+set -U Z_CMD "j"

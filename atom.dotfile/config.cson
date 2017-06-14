@@ -42,7 +42,6 @@
     rcFile: "%p/etc/pylintrc"
   "linter-ui-default":
     panelHeight: 232
-    showPanel: true
   "one-light-ui": {}
   "prettier-atom":
     formatOnSaveOptions:
