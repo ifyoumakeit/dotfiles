@@ -18,14 +18,14 @@
     ]
   editor:
     autoIndentOnPaste: false
-    fontFamily: "OperatorMono-Book"
+    fontFamily: "Fira Code"
     fontSize: 19
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
-    softTabs: false
     softWrap: true
     softWrapHangingIndent: 6
+    tabType: "soft"
   "elm-format": {}
   elmjutsu:
     cacheDirectory: "/var/folders/98/gmcrb9bx4b97c__3krht4f6w0000gp/T/elmjutsu213490N106lU53zzH"
@@ -36,16 +36,18 @@
   "git-plus":
     general:
       _analyticsUserId: "a553390b-c92a-487a-8cd0-a1cfa28ef4e8"
+  "language-elm": {}
   linter: {}
   "linter-pylint":
     rcFile: "%p/etc/pylintrc"
   "linter-ui-default":
-    panelHeight: 230
+    panelHeight: 231
     showPanel: true
   "one-light-ui": {}
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
+    prettierOptions: {}
   tabs:
     alwaysShowTabBar: false
     enableVcsColoring: true

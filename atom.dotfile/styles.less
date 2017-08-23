@@ -9,7 +9,6 @@
  * http://lesscss.org
  */
 
-
 /*
  * Examples
  * (To see them, uncomment and save)
@@ -22,8 +21,14 @@
 
 // style the background and foreground colors on the atom-text-editor-element itself
 atom-text-editor {
-  // color: white;
-  // background-color: hsl(180, 24%, 12%);
+  text-rendering: optimizeLegibility;
+}
+
+// turn off ligatures inside strings and regex
+// https://github.com/tonsky/FiraCode/wiki/Atom-instructions
+atom-text-editor.editor .syntax--string.syntax--quoted,
+atom-text-editor.editor .syntax--string.syntax--regexp {
+  -webkit-font-feature-settings: "liga" off, "calt" off;
 }
 
 // To style other content in the text editor's shadow DOM, use the ::shadow expression
@@ -39,10 +44,11 @@ atom-text-editor::shadow .cursor {
 
 .editor .git-commit.line-too-long.illegal {
   color: #fff;
-  background: #DA2C43;
+  background: #da2c43;
   opacity: 0.9;
 }
 
-.comment, .syntax--entity.syntax--attribute-name {
+.comment,
+.syntax--entity.syntax--attribute-name {
   font-style: italic;
 }

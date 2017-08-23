@@ -5,7 +5,6 @@ set -x PATH /usr/local/bin\
 						/usr/sbin\
 						/sbin\
 						/usr/local/MacGPG2/bin\
-						~/.config/yarn/global/node_modules/.bin/
 
 # System
 alias reload!="source ~/.config/fish/config.fish"
