@@ -4,6 +4,7 @@ set -x PATH /usr/local/bin\
 						/bin\
 						/usr/sbin\
 						/sbin\
+						$HOME/.cargo/bin\
 						/usr/local/MacGPG2/bin\
 
 # System
