@@ -8,6 +8,6 @@ function fish_prompt --description 'Write out the prompt'
     __fish_hg_prompt
     echo
 
-    echo -n '🐃  '
+    echo -n '🐡  '
     set_color normal
 end

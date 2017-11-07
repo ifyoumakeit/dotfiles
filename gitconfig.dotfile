@@ -1,16 +1,12 @@
 [user]
-  name = Kevin Pruett
-  email = pruett.kevin@gmail.com
+  name = Dave Garwacke
+  email = dave.garwacke@warbyparker.com
 [push]
   default = current
 [alias]
   co = checkout
   cleanup = !git remote prune origin && git gc && git clean -df && git stash clear
-  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
-  ; un-staged
-  us = log --cherry-pick --merges --left-only --author=pruett master...staging
-  ; un-deployed
-  ud = log --cherry-pick --no-merges --left-only --author=pruett staging...prod
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative  
 [color]
   ui = auto
 [color "branch"]

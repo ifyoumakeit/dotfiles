@@ -3,9 +3,7 @@ set -x PATH /usr/local/bin\
 						/usr/bin\
 						/bin\
 						/usr/sbin\
-						/sbin\
-						$HOME/.cargo/bin\
-						/usr/local/MacGPG2/bin\
+						/sbin						
 
 # System
 alias reload!="source ~/.config/fish/config.fish"
