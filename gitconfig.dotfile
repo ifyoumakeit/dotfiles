@@ -27,8 +27,9 @@
   changed = yellow
   untracked = cyan
 [core]
-  editor = vim
+	editor = code --wait
   excludesfile = ~/.gitignore
+	ignorecase = false
 [filter "lfs"]
   smudge = git-lfs smudge %f
   required = true

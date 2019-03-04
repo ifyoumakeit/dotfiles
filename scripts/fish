@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-echo "🐟  Set fish as default shell..."
-brew install fish;\
-echo `which fish` | sudo tee -a /etc/shells;\
-chsh -s `which fish`;\
-echo "Done 🎣"

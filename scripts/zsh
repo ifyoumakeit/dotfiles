@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo "Set zsh as default shell..."
+brew install zsh;\
+echo `which zshs` | sudo tee -a /etc/shells;\
+chsh -s `which zshs`;\
+echo "Done 🎣"
