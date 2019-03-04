@@ -1,2 +1,5 @@
 .DS_Store
 .netrwhist
+node_modules
+yarn 
+configstore

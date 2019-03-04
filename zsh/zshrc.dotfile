@@ -1,0 +1,7 @@
+export DOTFILES=$HOME/src/dotfiles 
+export ZSH=$DOTFILES/zsh
+
+for config ($ZSH/**/*.zsh) source $config
+
+# Git
+eval "$(hub alias -s)"
