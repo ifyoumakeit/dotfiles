@@ -1,7 +1,19 @@
 export DOTFILES=$HOME/src/dotfiles 
 export ZSH=$DOTFILES/zsh
 
+# Pull in all.zsh files.
 for config ($ZSH/**/*.zsh) source $config
 
 # Git
 eval "$(hub alias -s)"
+
+# Completions
+fpath=($ZSH/completions $fpath) 
+autoload -Uz compinit && compinit
+
+# NVM
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
+# Pyenv
+eval "$(pyenv init -)"
