@@ -1,15 +1,25 @@
-export DOTFILES=$HOME/src/dotfiles 
-export ZSH=$DOTFILES/zsh
+export DOTFILES=$HOME/src/dotfiles/zsh
+
+export ZSH=${DOTFILES}/oh-my-zsh
+source ${ZSH}/oh-my-zsh.sh
 
 # Pull in all.zsh files.
-for config ($ZSH/**/*.zsh) source $config
+source ${DOTFILES}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ${DOTFILES}/spaceship-prompt/spaceship.zsh
+
+# Completion 
+plugins=(
+  git
+  bundler
+  dotenv
+  osx
+  rake
+  rbenv
+  ruby
+)
 
 # Git
 eval "$(hub alias -s)"
-
-# Completions
-fpath=($ZSH/completions $fpath) 
-autoload -Uz compinit && compinit
 
 # NVM
 export NVM_DIR=~/.nvm

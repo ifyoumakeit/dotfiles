@@ -2,6 +2,8 @@
 
 echo "Set zsh as default shell..."
 brew install zsh;\
-echo `which zshs` | sudo tee -a /etc/shells;\
-chsh -s `which zshs`;\
+echo "Installing oh-my-zsh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+echo 'which zshs' | sudo tee -a /etc/shells;\
+chsh -s 'which zshs';\
 echo "Done 🎣"
